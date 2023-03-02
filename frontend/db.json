@@ -1,0 +1,65 @@
+{
+  "signup": [
+    {
+      "id": "typicode@gmail.com",
+      "name": "json-server",
+      "email": "typicode@gmail.com",
+      "password": "01234569",
+      "phone": "0123456789",
+      "address": "hyderabad",
+      "plan": "basic",
+      "company": "cipla"
+    },
+    {
+      "name": "Mark Sushil",
+      "email": "pmsushil.2011@gmail.com",
+      "password": "012345678",
+      "phone": "9581979440",
+      "address": "2-510, CHEEDIGA",
+      "plan": "basic",
+      "company": "swissnutricia",
+      "id": "pmsushil.2011@gmail.com"
+    },
+    {
+      "name": "sushil",
+      "id": "pmosesakhil1990@gmail.com",
+      "password": "012345",
+      "phone": "09581979945",
+      "address": "301, Ak Residency",
+      "plan": "basic",
+      "company": "AstraZeneca"
+    }
+  ],
+  "addusers": [
+    {
+      "id": 1,
+      "email": "ajay.s@aidizital.com",
+      "name": "Ajay",
+      "created_date": "Dec 8, 2022",
+      "modified_date": "Jan 3, 2023",
+      "status": "Confirmed",
+      "enable": "true"
+    },
+    {
+      "email": "pmsushil.2011@gmail.com",
+      "name": "Mark Sushil",
+      "created_date": "2023-01-06",
+      "modified_date": "2023-01-06",
+      "status": "confirmed",
+      "enable": "true",
+      "id": 2
+    },
+    {
+      "email": "sowrya@gmail.com",
+      "name": "Sowrya",
+      "created_date": "2023-01-06",
+      "modified_date": "2023-01-06",
+      "status": "confirmed",
+      "enable": "true",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
