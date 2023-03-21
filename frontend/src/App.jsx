@@ -12,18 +12,8 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Landing from './pages/Landing'
-
+import Landing from './Components/Landing Page/Landing'
 const App = () => {
-
-  // const usenavigate = useNavigate();
-
-  //   useEffect(() => {
-  //    let email=sessionStorage.getItem('email');
-  //    if(email==='' || email ===null){
-  //       usenavigate('/login');
-  //    }
-  //   }, []);
 
   return (
     <Router>

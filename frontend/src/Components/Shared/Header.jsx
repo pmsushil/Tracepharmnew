@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react'
 import { Menu, Popover, Transition } from '@headlessui/react'
-import { HiOutlineBell, HiOutlineSearch, HiOutlineChatAlt } from 'react-icons/hi'
+import { HiOutlineBell, HiOutlineSearch, HiOutlineChatAlt,HiOutlineUser } from 'react-icons/hi'
 import { Link, useNavigate } from 'react-router-dom'
 import classNames from 'classnames'
+
 
 export default function Header() {
 	const navigate = useNavigate()
@@ -80,13 +81,13 @@ export default function Header() {
 				</Popover>
 				<Menu as="div" className="relative">
 					<div>
-						<Menu.Button className="ml-2 bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-neutral-400">
+						<Menu.Button className="ml-2 pt-4 flex text-sm ">
 							<span className="sr-only">Open user menu</span>
 							<div
-								className="h-10 w-10 rounded-full bg-sky-500 bg-cover bg-no-repeat bg-center"
-								style={{ backgroundImage: 'url("https://source.unsplash.com/80x80?face")' }}
-							>
+								className="h-10 w-10 rounded-full bg-grey-500 bg-cover bg-no-repeat bg-center justify-center"
 								
+							>
+								<HiOutlineUser fontSize={24} />
 							</div>
 						</Menu.Button>
 					</div>
