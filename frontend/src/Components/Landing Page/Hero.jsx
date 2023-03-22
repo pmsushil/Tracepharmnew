@@ -6,7 +6,7 @@ const Hero = () => {
 
   
   return (
-    <div className='text-white bg-gray-800' >
+    <div className='text-white bg-gray-800' style={{ zIndex: 0 }} >
       <div className='max-w-[800px] mt-[-96px] w-full h-screen  mx-auto text-center flex flex-col justify-center'>
         <Carousel autoplay  >
         <div>
